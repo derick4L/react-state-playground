@@ -1,0 +1,15 @@
+.toggle{
+  transform: translateY(-30%);
+  #toggle-text{
+    font-size: 55px;
+  }
+  button{
+      margin-top: 9px;
+      background: transparent;
+      color: #08f000;
+      border: none;
+      font-size: 30px;
+      cursor: pointer;
+      border: 2px dotted;
+  }
+}

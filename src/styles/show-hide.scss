@@ -1,0 +1,15 @@
+.show-hide{
+  transform: translateY(-30%);
+  #show-hide-text{
+    font-size: 40px;
+  }
+  button{
+    margin-top: 10px;
+      background: transparent;
+      color: #08f000;
+      border: none;
+      font-size: 40px;
+      cursor: pointer;
+      border: 2px dotted;
+  }
+}

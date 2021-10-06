@@ -1,0 +1,25 @@
+.font-sizer{
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+  .font-sizer-button-group{
+    display: flex;
+    width: 550px;
+    justify-content: space-evenly;
+
+    button{
+      margin-top: 10px;
+      background: transparent;
+      color: #08f000;
+      border: none;
+      font-size: 30px;
+      cursor: pointer;
+      border: 2px dotted;
+    }
+  }
+      .font-sizer-text{
+        transform: translateY(-120%);
+      }
+}

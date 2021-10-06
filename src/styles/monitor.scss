@@ -1,0 +1,76 @@
+.monitor-box {
+  color: #08f000;
+  height: 100vh;
+  text-align: center;
+  background: #feffd9;
+  margin: 0;
+  z-index: 4;
+
+
+  .monitor-inner-box{
+    background: #dadbab;
+    border-radius: 20px;
+    border-left: 6px solid #b4b584;
+    border-bottom: 6px solid #b4b584;
+    height: 670px;
+    width: 1080px;
+    z-index: 3;
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    
+    .monitor-screen{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #084552;
+      border-top: 10px solid #366670;
+      border-bottom: 10px solid #366670;
+      border-right: 6px solid #02252c;
+      border-left: 6px solid #02252c;      
+      border-radius: 20px;
+      height: 630px;
+      width: 1030px;
+      position: absolute;
+      top: 50%; right: 50%;
+      transform: translate(50%,-50%);
+      
+      #welcome-text {
+        transform: translateY(-480%);
+        // position: relative;
+        font-size: 27px;
+        font-family: 'Press Start 2P', cursive;
+      }
+
+      .creator-tag {
+        transform: translateY(152%);
+        display: flex;
+        justify-content: center;
+        
+        .creator-tag-inner{
+          padding: 0 24px;
+          height: 100px;
+          width: 500px;
+          background: transparent;
+          border-style: dotted;
+          border-color: #08f000;
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: column;
+          align-items: center;
+          
+          #tag-text{
+            font-size: 28px;
+            letter-spacing: 2px;
+          }
+
+          a{
+            color: #08f000;
+            font-size: 34px;
+          }
+        }
+      }
+    }
+  }
+}

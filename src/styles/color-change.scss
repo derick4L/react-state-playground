@@ -1,0 +1,19 @@
+.color{
+  margin-top: 20px;
+  #color-text{
+    font-size: 45px;
+    transform: translateY(-66%);
+  }
+  input{
+    background: transparent;
+    border: 2px dotted #08f000;
+    padding: 3px 12px;
+    font-size: 24px;
+    caret-color: #08f000;
+    color: #08f000;
+
+    &:focus{
+      outline: none;
+    }
+  }
+}

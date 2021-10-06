@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+
+@import './styles/nav.scss';
+@import './styles/home.scss';
+@import './styles/monitor.scss';
+@import './styles/counter.scss';
+@import './styles/toggle.scss';
+@import './styles/font-sizer.scss';
+@import './styles/align.scss';
+@import './styles/show-hide.scss';
+@import './styles/clock.scss';
+@import './styles/color-change.scss';
+
+*{
+  font-family: 'VT323', monospace;
+  font-weight: 300;
+  margin: 0;
+  transition: all .5s ease;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
